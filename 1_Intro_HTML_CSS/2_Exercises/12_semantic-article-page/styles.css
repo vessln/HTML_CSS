@@ -1,5 +1,7 @@
-body {
+.site {
     background-color: #e4e978;
+    width: 722px;
+    padding: 3px 3px;
 }
 
 article {
