@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    width: 40%;
+}
+
+section {
+    font-family: Times New Roman sans-serif;
+    font-size: 1em;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+}
+
+div img {
+    position: relative;
+}
+
+h3 {
+    font-family: Georgia serif;
+    font-size: 1.2em;
+    margin: 1em 2em 1em 2em;
+}
+
+.card {
+    width: 65vh;
+}
+
+p {
+    padding: 0 2.5em 2.5em 2.5em;
+}
+
+.card a {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.2em;
+    padding: 0.5em 1em 0.5em 1em;
+    position: relative;
+    bottom: 2em;
+    left: 23em;
+}

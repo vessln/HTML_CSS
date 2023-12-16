@@ -1,2 +1,41 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.viewport {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.viewport:first-child {
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(45deg, #ff009d, #FFA500);
+}
+
+img {
+    max-width: 40%;
+    max-height: 100vh;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    right: 44%;
+}
+
+.card i {
+    color: white;
+}
