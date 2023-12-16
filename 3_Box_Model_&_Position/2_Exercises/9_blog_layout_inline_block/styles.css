@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    padding: 1em 2em 1em 2em;
+    line-height: 1.3em;
+    width: 90%;
+}
+
+article {
+    display: inline-block;
+}
+
+article {
+    width: 68%;
+}
+
+article, main, aside {
+    padding-top: 1.5em;
+}
+
+aside {
+    display: block;
+    position: relative;
+    float: right;
+    width: 32%;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+ul li {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+img {
+    width: 70%;
+}
+
+p {
+    padding: 1.5em 0 1.5em 0;
+}
+
+header div {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+aside div {
+    font-size: 23px;
+    font-weight: 900;
+    padding-bottom: 0.8em;
+}
+
+header div, aside div, h2 {
+    font-family: Helvetica serif;
+}
