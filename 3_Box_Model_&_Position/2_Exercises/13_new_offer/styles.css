@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+
+
+img.new {
+    position: relative;
+    top: -200px;
+    left: 150px;
+    transform: translate(26%, -103%);
+}
