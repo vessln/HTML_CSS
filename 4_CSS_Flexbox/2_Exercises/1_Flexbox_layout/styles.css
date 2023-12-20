@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.site-header, .site-footer, .site-main, .site-aside {
+    padding: 2rem;
+    background-color:#FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.site-header, .site-footer {
+    flex-basis: 100%;
+}
+
+.site-main {
+    flex-grow: 8;
+    flex-shrink: 1;
+    flex-basis: 40rem;
+    height: 40vh;
+}
+
+.site-aside {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 20rem;
+}
+
+.site-header {
+    height: 20vh;
+}
