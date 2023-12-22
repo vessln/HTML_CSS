@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 4em 7em;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+.site-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.7em;
+}
+
+main {
+    flex-basis: 55vw;
+}
+
+section {
+    display: block;
+    padding-bottom: 1em;
+}
+
+.section1 img {
+    float: right;
+    margin: 1em 1em 1em 1.5em;
+}
+
+.section3 img {
+    float: left;
+    margin: 1em 1.5em 1em 0;
+}
+
+img {
+    border: 3px solid black;
+    box-shadow: 0 0 1em 0.6em rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 10px 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    margin-top: 1.2em;
+}
+
+p, a{
+    margin-top: 1em;
+    line-height: 1.5;
+}
+
+.div-blq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+blockquote {
+    border-left: 5px solid #CCCCCC;
+    padding: 0 0 2em 2em;
+    opacity: 0.5;
+    flex-basis: 45%;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+}
+
+.div-blq p {
+    flex-basis: 47%;
+    margin: 0;
+}
+
+.author {
+    float: right;
+    padding-top: 2em;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #2fcc71;
+}
+
+.nav-bar ul {
+    list-style-position: inside;
+    text-indent: 1em;
+    margin-top: 0.5em;
+}
