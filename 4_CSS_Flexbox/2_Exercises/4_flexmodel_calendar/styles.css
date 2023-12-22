@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 65vw;
+    min-height: 100vh;
+    border: 2px solid;
+}
+
+.week, .notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.week span {
+    padding-top: 1.5em;
+}
+
+.notes {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: initial;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.span-ww {
+    flex-basis: 70vw;
+    flex-grow: 1;
+    height: 25vh;
+    font-size: 20px;
+}
+
+.span-day {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    height: 25vh;
+    font-size: 17px;
+}
+
+.span-weekend {
+    flex-grow: 2;
+    height: 25vh;
+    font-size: 17px;
+}
+
+.notes * {
+    font-size: 20px;
+    height: 50vh;
+    padding-top: 0.5em;
+}
