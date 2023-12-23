@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*  {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    flex-direction: column;
+    border: 2px solid black;
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header, main, footer {
+    padding: 1.5rem;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+}
+
+h2, p {
+    padding-top: 1em;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
