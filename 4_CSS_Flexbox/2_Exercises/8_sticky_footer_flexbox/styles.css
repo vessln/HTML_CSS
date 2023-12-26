@@ -16,7 +16,6 @@ body {
     background-color: rgb(238, 238, 238);
     height: 100vh;
     flex-direction: column;
-    border: 2px solid black;
     font-family: 'Helvetica', sans-serif;
 }
 
@@ -42,8 +41,15 @@ h2, p {
 footer {
     color: rgb(255, 255, 255);
     background-color: rgb(102, 102, 102);
+    position: sticky;
+    top: 100vh;
+}
+
+/*footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-}
+}*/
