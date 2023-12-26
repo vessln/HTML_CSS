@@ -26,13 +26,15 @@ body {
 .gallery li {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px;
     list-style: none;
     border: 8px solid black;
     background-color: white;
-    box-shadow: 0 0 0.5em 0.2em rgba(0,0,0,0.3) inset;
+    box-shadow: 0 0 1em 0.5em rgba(0,0,0,0.2),
+                0 0 0.5em 0.2em rgba(0,0,0,0.3) inset;
     padding: 2em 1em;
 }
 
