@@ -14,13 +14,13 @@ html {
 body {
     display: flex;
     background-color: rgb(238, 238, 238);
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     font-family: 'Helvetica', sans-serif;
 }
 
 header {
-    border-bottom: 2px solid black;
+    border: 2px solid black;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -28,6 +28,10 @@ header {
 
 header, main, footer {
     padding: 1.5rem;
+}
+
+main {
+    flex: 1 1 auto;
 }
 
 h2 {

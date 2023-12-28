@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -28,8 +28,9 @@ body {
 }
 
 div {
-    border-radius: 7px;
+    display: block;
     overflow: hidden;
+    border-radius: 7px;
     box-shadow: 0 0 1em 0.7em rgba(0, 0, 0, 0.1);
     background-color: black;
     width: 100px;
