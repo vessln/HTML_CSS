@@ -1,14 +1,21 @@
 body {
-  display: flex;
+    display: flex;
+    border: 2px solid red;
+}
+
+@media (orientation: portrait) {
+    body {
+        flex-direction: column;
+    }
 }
 
 div {
-  background: lightblue;
-  width: 200px;
-  height: 200px;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  border: 2px solid black;
-  font-weight: bold;
-  text-align: center;
+    background: lightblue;
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
 }
