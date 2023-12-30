@@ -1,0 +1,45 @@
+.site-banner {
+    border-radius: 0.3em;
+    overflow: hidden;
+    margin-top: 0.5em;
+    position: relative;
+}
+
+.site-banner:before, .site-banner:after {
+    display: block;
+    content: '';
+}
+
+.site-banner:before {
+    padding-top: 56.25%; /* the container for image will always be 16:9 resolution */
+}
+
+.site-banner:after {
+    position: absolute;
+    inset: 0; /* top=0, right=0, bottom=0, left=0 */
+    background: rgba(0,0,0,0.5);
+    z-index: 40;
+    transition: background 0.3s ease-in;
+}
+
+.site-banner:hover:after {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.site-banner img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.site-banner p {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em 1.5em;
+    z-index: 50;
+}
+

@@ -1,0 +1,16 @@
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li {
+    display: block; /* make list elements block element (list-style is none) )*/
+}
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+}
+
+
