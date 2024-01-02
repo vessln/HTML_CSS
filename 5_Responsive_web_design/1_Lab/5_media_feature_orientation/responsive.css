@@ -9,6 +9,12 @@ body {
     }
 }
 
+@media (orientation: landscape) {
+    body {
+        flex-direction: row;
+    }
+}
+
 div {
     background: lightblue;
     width: 200px;
