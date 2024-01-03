@@ -1,12 +1,12 @@
-@media screen and (width: 360px) {
-    article {
+@media (width: 360px) {
+    body {
         color: red;
     }
 }
 
 @media (min-width: 35rem) {
     article {
-        background-color: yellow;
+        background: yellow;
     }
 }
 

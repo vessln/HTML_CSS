@@ -1,0 +1,13 @@
+.container {
+    overflow: hidden;
+    border-radius: 0.5em;
+    aspect-ratio: 16/9;
+    background-color: red;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

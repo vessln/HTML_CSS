@@ -49,4 +49,10 @@ body {
 .site-content {
     max-width: 50em;
     margin: 0 auto;
+    display: flex;
 }
+
+.site-main {
+
+}
+
