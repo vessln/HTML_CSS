@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0;
 }
 
 .site {
@@ -48,13 +47,14 @@ body {
 
 .site-header ul {
     display: flex;
+    gap: 0.5em;
 }
 
 .site-header .header-nav a {
     display: block;
     text-decoration: none;
     color: black;
-    padding: 0 1em;
+    padding: 0 0.5em;
 }
 
 .site-header .icon {
