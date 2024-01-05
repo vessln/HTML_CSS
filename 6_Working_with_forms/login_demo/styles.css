@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 15px/1.5 Georgia serif;
+}
+
+body, input, select, textarea, button {
+    font: inherit;
+}
+
+body {
+    padding: 3em;
+}
+
+.login {
+    display: block;
+    border: 2px solid #CCCCCC;
+    border-radius: 0.3em;
+    padding: 2em;
+    box-shadow: 0 0 1em 0.3em rgba(0,0,0,0.3);
+}
+
+.login .field {
+    padding: 1em;
+    border: 2px solid #CCCCCC;
+    border-radius: 0.3em;
+    margin: 0.5em;
+}
+
+.login .field label, .login .field input, .login .field span {
+    display: block;
+    width: 100%;
+}
+
+.login .field input {
+    border: 2px solid #CCCCCC;
+    border-radius: 0.3em;
+    padding: 0.5em 0.7em;
+}
+
+.login .field label, .login .button input {
+    font-weight: bold;
+}
+
+.login .field .helper {
+    font-style: italic;
+}
+
+.login .field .helper.error {
+    color: red;
+}
+
+.login .button input:active {
+    box-shadow: 0 0 1.5em 0.2em rgba(0,0,0,0.2) inset;
+}
